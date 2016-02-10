@@ -18,85 +18,85 @@
 </head>
 
 <body>
-	
-	<!-- navbar that I copied from the Bootstrap site -->
-	<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Kevin Graber</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+	<div id="wrap">
+		<!-- navbar that I copied from the Bootstrap site -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#">Kevin Graber</a>
+	        </div>
+	        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
+	          <ul class="nav navbar-nav">
+	            <li><a href="index.html">Home</a></li>
+	            <li><a href="about.html">About</a></li>
+	            <li class="active"><a href="contact.html">Contact</a></li>
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div>
+	    </nav>
 
-    <div class="container">
+	    <div class="container">
 
-   		<!-- social media sidebar -->
-    	<div id="socialBar">
-    		<a href="https://www.linkedin.com/in/kevin-graber-a80bb4b9" target="_blank"><img src="assets/images/linkedin.png" class="social"></a>
-    		<a href="https://github.com/kevingraber" target="_blank"><img src="assets/images/github.png" class="social"></a>
-    		<a href="http://stackoverflow.com/users/5782050/k-graber" target="_blank"><img src="assets/images/stackoverflow.png" class="social"></a>
-    		<a href="http://www.last.fm/user/Gandlefork" target="_blank"><img src="assets/images/lastfm.png" class="social"></a>
-    	</div>
+	   		<!-- social media sidebar -->
+	    	<div id="socialBar">
+	    		<a href="https://www.linkedin.com/in/kevin-graber-a80bb4b9" target="_blank"><img src="assets/images/linkedin.png" class="social"></a>
+	    		<a href="https://github.com/kevingraber" target="_blank"><img src="assets/images/github.png" class="social"></a>
+	    		<a href="http://stackoverflow.com/users/5782050/k-graber" target="_blank"><img src="assets/images/stackoverflow.png" class="social"></a>
+	    		<a href="http://www.last.fm/user/Gandlefork" target="_blank"><img src="assets/images/lastfm.png" class="social"></a>
+	    	</div>
 
-    	<!-- page title -->
-    	<div class="row">
-			<div class="col-md-10 col-md-offset-1">
-				<h1>Contact Me</h1>
-				<p>Like one of my projects? Want to argue over which Black Sabbath album is the best? Get in touch!</p>
+	    	<!-- page title -->
+	    	<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<h1>Contact Me</h1>
+					<p>Like one of my projects? Want to argue over which Black Sabbath album is the best? Get in touch!</p>
+				</div>
 			</div>
+
+			<br>
+			<br>
+
+			<!-- the contact form -->
+			<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+		        <div class="well bs-component">
+		            <form class="form-horizontal">
+		                <fieldset>
+				      		<legend>Contact Info</legend>
+				      		<div class="form-group">
+				        		<label for="inputName" class="col-lg-2 control-label">Name</label>
+				        		<div class="col-lg-10">
+				          			<input type="text" class="form-control" id="inputName" placeholder="John Doe">
+				       			</div>
+				      		</div>
+				      		<div class="form-group">
+				        		<label for="inputEmail" class="col-lg-2 control-label">Email</label>
+				        		<div class="col-lg-10">
+				          			<input type="text" class="form-control" id="inputEmail" placeholder="johndoe123@gmail.com">
+				       			</div>
+				      		</div>
+				      		<div class="form-group">
+				        		<label for="textArea" class="col-lg-2 control-label">Message</label>
+				        		<div class="col-lg-10">
+				          			<textarea class="form-control" rows="3" id="textArea" placeholder="What's on your mind?"></textarea>
+				          			<span class="help-block">I wish I knew how to make this button work!</span>
+				        		</div>
+				      		</div>                 
+				      		<div class="form-group">
+				        		<div class="col-lg-10 col-lg-offset-2">
+				          			<button type="submit" class="btn btn-primary">Submit</button>
+				        		</div>
+				      		</div>
+		                </fieldset>
+		            </form>
+		        <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
+		    </div>
 		</div>
-
-		<br>
-		<br>
-
-		<!-- the contact form -->
-		<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
-	        <div class="well bs-component">
-	            <form class="form-horizontal">
-	                <fieldset>
-			      		<legend>Contact Info</legend>
-			      		<div class="form-group">
-			        		<label for="inputName" class="col-lg-2 control-label">Name</label>
-			        		<div class="col-lg-10">
-			          			<input type="text" class="form-control" id="inputName" placeholder="John Doe">
-			       			</div>
-			      		</div>
-			      		<div class="form-group">
-			        		<label for="inputEmail" class="col-lg-2 control-label">Email</label>
-			        		<div class="col-lg-10">
-			          			<input type="text" class="form-control" id="inputEmail" placeholder="johndoe123@gmail.com">
-			       			</div>
-			      		</div>
-			      		<div class="form-group">
-			        		<label for="textArea" class="col-lg-2 control-label">Message</label>
-			        		<div class="col-lg-10">
-			          			<textarea class="form-control" rows="3" id="textArea" placeholder="What's on your mind?"></textarea>
-			          			<span class="help-block">I wish I knew how to make this button work!</span>
-			        		</div>
-			      		</div>                 
-			      		<div class="form-group">
-			        		<div class="col-lg-10 col-lg-offset-2">
-			          			<button type="submit" class="btn btn-primary">Submit</button>
-			        		</div>
-			      		</div>
-	                </fieldset>
-	            </form>
-	        <div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
-	    </div>
-
 	</div>
 
 	<!-- footer -->
