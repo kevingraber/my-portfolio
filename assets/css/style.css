@@ -68,6 +68,10 @@ footer p {
 	font-family: 'Slabo 27px', serif;
 }
 
+.bot {
+	margin-bottom:40px;
+}
+
 /*makes the portfolio pictures fade over 1second*/
 @keyframes fade {
 	from {opacity: 1;}
