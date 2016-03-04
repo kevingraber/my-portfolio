@@ -65,31 +65,32 @@
 			<!-- the contact form -->
 			<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
 		        <div class="well bs-component">
-		            <form class="form-horizontal">
+		            <form class="form-horizontal" action="MAILTO:kjg310@gmail.com" method="post" enctype="text/plain">
 		                <fieldset>
 				      		<legend>Contact Info</legend>
 				      		<div class="form-group">
 				        		<label for="inputName" class="col-lg-2 control-label">Name</label>
 				        		<div class="col-lg-10">
-				          			<input type="text" class="form-control" id="inputName" placeholder="John Doe">
+				          			<input type="text" class="form-control" id="inputName" name="name" placeholder="John Doe">
 				       			</div>
 				      		</div>
 				      		<div class="form-group">
 				        		<label for="inputEmail" class="col-lg-2 control-label">Email</label>
 				        		<div class="col-lg-10">
-				          			<input type="text" class="form-control" id="inputEmail" placeholder="johndoe123@gmail.com">
+				          			<input type="text" class="form-control" id="inputEmail" name="email" placeholder="johndoe123@gmail.com">
 				       			</div>
 				      		</div>
 				      		<div class="form-group">
 				        		<label for="textArea" class="col-lg-2 control-label">Message</label>
 				        		<div class="col-lg-10">
-				          			<textarea class="form-control" rows="3" id="textArea" placeholder="What's on your mind?"></textarea>
+				          			<textarea class="form-control" rows="3" id="textArea" name="message" placeholder="What's on your mind?"></textarea>
 				          			<span class="help-block">I wish I knew how to make this button work!</span>
 				        		</div>
 				      		</div>                 
 				      		<div class="form-group">
 				        		<div class="col-lg-10 col-lg-offset-2">
 				          			<button type="submit" class="btn btn-primary">Submit</button>
+				          			<button type="reset" class="btn btn-primary">Reset</button>
 				        		</div>
 				      		</div>
 		                </fieldset>
